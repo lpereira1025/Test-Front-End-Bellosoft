@@ -1,0 +1,46 @@
+.mainLogin {
+    max-width: 23.4rem;
+    height: 100%;
+    margin: 3rem auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #8B8B8B;
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: 1rem;
+}
+.sectionMain {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.titleLogin {
+    font-size: 1.5rem;
+    color: #20130B;
+    margin-bottom: 2rem;
+}
+.legendTitle {
+    line-height: 1.7rem;
+    margin-bottom: 2rem;
+}
+.buttonLogin{
+    height: 3.4rem;
+    border-radius: 0.5rem;
+    background-color: #BC8363;
+    color: #fff;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+.buttonForgot{
+    height: 3.4rem;
+    color: #BC8363;
+    background-color: #fff;
+    border: none;
+    margin-bottom: 5rem;
+    cursor: pointer;
+}
+.buttonLogin:active, .buttonForgot:active {
+    box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+    transform: translateY(4px);
+}

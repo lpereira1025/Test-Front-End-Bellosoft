@@ -1,0 +1,40 @@
+.inputWrapperPhone {
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.inputPhone{
+  width: 100%;
+  height: 4.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid #E9ECEF;
+  border-radius: 1rem;
+  padding-left: 4rem;
+  padding-top: 1rem;
+}
+
+.inputIconPhone {
+  position: absolute;
+  left: 1.3rem;
+  top: 1.5rem;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.inputLabelPhone {
+  position: absolute;
+  left: 4rem;
+  top: 0.5rem;
+  color: #20130B;
+  font-size: 0.875rem;
+  pointer-events: none;
+  transition: 0.2s ease-out;
+}
+
+.errorMessage {
+  color: red;
+  font-size: 0.75rem;
+  margin-top: 0.5rem;
+}
+  
+  

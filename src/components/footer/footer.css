@@ -1,0 +1,38 @@
+.footer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+.footerLetters{
+    font-size: 0.9rem;
+}
+.buttonsGroup{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.buttonLinkTo{
+    width: 4.25rem;
+    height: 4rem;
+    background-color: white;
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.15);
+    cursor: pointer;
+}
+.buttonLinkTo:active {
+    box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+    transform: translateY(4px);
+}
+.logosFooter{
+    width: 1.6rem;
+}
+.footerLetters{
+    margin-bottom: 1rem;
+}
+.linkTo{
+    color: #BC8363;
+}
