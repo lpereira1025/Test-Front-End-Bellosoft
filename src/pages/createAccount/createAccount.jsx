@@ -2,7 +2,7 @@ import Header from '../../components/header/header';
 import Footer from '../../components/footer/footer';
 import PhoneNumberInput from '../../components/phoneField/phoneField'
 import EmailInput from '../../components/emailField/emailInput'
-import PasswordInput from '../../components/passwordField/passwordField'
+import PasswordVericationInput from '../../components/passwordVerification/passwordFieldVerification'
 import './createAccount.css';
 
 const CreateAccount = () => {
@@ -18,7 +18,7 @@ const CreateAccount = () => {
         </span>
         <EmailInput/>
         <PhoneNumberInput/>
-        <PasswordInput/>
+        <PasswordVericationInput/>
         <button className='buttonLoginAccount'>Create Account</button>
       </section>
       <Footer createAccountText="Login Now" linkTo="/" />
